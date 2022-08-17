@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Courier Prime', monospace;
+}
+.error {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: ghostwhite;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.error h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px rgb(226, 131, 147);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(199, 194, 194);
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 5px 15px gainsboro;
+}
+.bg-dark{
+  background: #000000;
+}
+.btn-outline-danger{
+  border-radius: 0;
+ 
+  border: 1 !important;
+  padding-bottom: 1px;
+}
+.btn-three-mix{
+  background: linear-gradient(to right,#c20366, #f32424 ) !important;
+  padding: 7px 10px;
+  border-radius: 0;
+  font-weight: 500;
+  border: none !important;
+  color: #fff !important;
+  width: 100px;
+}
+.btn-one-mix{
+  background: linear-gradient(to right,#0b5075, #3792c2 ) !important;
+  padding: 7px 10px;
+  border-radius: 0;
+  font-weight: 500;
+  border: none !important;
+  color: #fff !important;
+  width: 170px;
+}
+button{
+  box-shadow: none !important;
+}
+.text-custom{
+  color: #f32424 !important;
+  
+  
+}
+.form-control {
+  border:1px solid rgb(216, 43, 8) !important;
+  
+}
+.form-control:focus{
+  
+box-shadow: none;
+  
+}
+
+.imgg{
+  width: 100%;
+  height: 300px;
+}
+.dflex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Courier Prime', monospace;
+}
+.mlink
+{
+  color:#c20366;
+}
+.mlink:hover{
+  text-decoration:none;
+}
+.bigimg{
+  width: 80%;
+  height: 300px;
+  display: block;
+  margin: auto;
+  box-shadow: 0px 5px 7px grey;
+}
+.mt5{
+  margin-top: -20px;
+}

@@ -1,0 +1,82 @@
+.home{
+width: 100%;
+min-height: 90vh;
+/* background-color: ghostwhite; */
+padding: 100px 0 70px 0;
+
+}
+
+.home th , .home td{
+width: 100px !important;
+}
+.smimg{
+  width: 50px;
+  height: 50px;
+}
+.optab{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.optab i{
+  cursor: pointer;
+}
+.updiv{
+  width: 100%;
+  min-height: 35vh;
+  background: #82d523;
+}
+.bigimg{
+  width: 80%;
+  height: 250px;
+  display: block;
+  margin: auto;
+}
+
+.mtt{
+  margin-bottom: -2px;
+}
+.fontsize{
+  font-size: 12px;
+}
+.textb{
+  width: 150px;
+  height: 40px;
+  background: #82d523;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-top: 50px;
+  color: #000000;
+  margin: auto;
+}
+.pagination a {
+  padding: 5px 8px;
+  margin: 10px;
+  border: 2px solid #82d523;
+  color: #000000 !important;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px !important;
+}
+.pagination a:hover {
+  color: #fff !important;
+  text-decoration: none;
+  background-color: #82d523;
+}
+.activebutton a {
+  background-color: #82d523;
+  color: #fff !important;
+}

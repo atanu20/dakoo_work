@@ -1,0 +1,22 @@
+.nav-item a{
+    color:white !important;
+}
+.dot{
+ 
+   background: white;
+   padding: 5px;
+   
+}
+nav{
+    display: flex;
+    justify-content:space-between !important;
+    align-items: center;
+}
+
+.navup{
+    margin-right: 15px;
+    color: white;
+}
+.navup:hover{
+    color:#82d523
+}
